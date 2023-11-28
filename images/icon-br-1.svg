@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="49" height="49" viewBox="0 0 49 49">
+  <g id="icon-br-1" transform="translate(-628 -3591)">
+    <g id="Ellipse_8" data-name="Ellipse 8" transform="translate(628 3591)" fill="rgba(255,255,255,0.11)" stroke="#361a83" stroke-width="1">
+      <circle cx="24.5" cy="24.5" r="24.5" stroke="none"/>
+      <circle cx="24.5" cy="24.5" r="24" fill="none"/>
+    </g>
+    <g id="Group_52990" data-name="Group 52990" transform="translate(637.907 3600.705)">
+      <g id="Group_52989" data-name="Group 52989" transform="translate(-0.364 -0.003)">
+        <path id="Path_947" data-name="Path 947" d="M29.275,1.641l-.252,3.252a.7.7,0,0,1-1.2.445l-.732-.732L22.228,9.479a2.022,2.022,0,0,1-2.856,0L17.119,7.225a.5.5,0,0,0-.714,0L9,14.633a2.019,2.019,0,0,1-2.857,0L4.9,13.389a.5.5,0,0,0-.713,0L1.722,15.85a1.015,1.015,0,0,1-1.423,0,1,1,0,0,1,0-1.424L3.115,11.6a2.019,2.019,0,0,1,2.856,0l1.6,1.6,7.763-7.764a2.019,2.019,0,0,1,2.856,0l2.252,2.251a.5.5,0,0,0,.714,0L25.67,3.176l-.732-.732a.7.7,0,0,1,.444-1.192L28.638,1a.6.6,0,0,1,.637.643Z" transform="translate(0.32 -0.997)" fill="#4fba6f" fill-rule="evenodd"/>
+        <rect id="Rectangle_81" data-name="Rectangle 81" width="7.919" height="2.64" rx="1.32" transform="translate(0.88 26.955)" fill="#f0c419"/>
+        <rect id="Rectangle_82" data-name="Rectangle 82" width="8.798" height="2.64" rx="1.32" transform="translate(10.558 26.955)" fill="#f0c419"/>
+        <rect id="Rectangle_83" data-name="Rectangle 83" width="8.798" height="1.76" rx="0.88" transform="translate(10.558 25.195)" fill="#f3d55b"/>
+        <rect id="Rectangle_84" data-name="Rectangle 84" width="8.798" height="1.76" rx="0.88" transform="translate(10.558 23.436)" fill="#f0c419"/>
+        <rect id="Rectangle_85" data-name="Rectangle 85" width="7.919" height="2.64" rx="1.32" transform="translate(21.116 26.955)" fill="#f0c419"/>
+        <ellipse id="Ellipse_20" data-name="Ellipse 20" cx="4.399" cy="4.839" rx="4.399" ry="4.839" transform="translate(10.558 13.757)" fill="#f3d55b"/>
+        <rect id="Rectangle_86" data-name="Rectangle 86" width="7.919" height="1.76" rx="0.88" transform="translate(21.116 25.195)" fill="#f3d55b"/>
+        <rect id="Rectangle_87" data-name="Rectangle 87" width="7.919" height="1.76" rx="0.88" transform="translate(21.116 23.436)" fill="#f0c419"/>
+        <rect id="Rectangle_88" data-name="Rectangle 88" width="7.919" height="2.64" rx="1.32" transform="translate(21.116 20.796)" fill="#f3d55b"/>
+        <rect id="Rectangle_89" data-name="Rectangle 89" width="7.919" height="1.76" rx="0.88" transform="translate(21.116 19.037)" fill="#f0c419"/>
+        <ellipse id="Ellipse_21" data-name="Ellipse 21" cx="4.839" cy="4.399" rx="4.839" ry="4.399" transform="translate(20.236 10.238)" fill="#f3d55b"/>
+        <ellipse id="Ellipse_22" data-name="Ellipse 22" cx="4.839" cy="4.399" rx="4.839" ry="4.399" transform="translate(0 18.157)" fill="#f3d55b"/>
+        <g id="Group_52988" data-name="Group 52988" transform="translate(3.349 11.61)">
+          <path id="Path_948" data-name="Path 948" d="M17.61,30.562a.5.5,0,1,1,.438-.757.5.5,0,1,0,.874-.5,1.514,1.514,0,0,0-.807-.656v-.1a.5.5,0,0,0-1.009,0v.093a1.511,1.511,0,0,0,.5,2.936.5.5,0,1,1-.438.757.5.5,0,0,0-.874.5,1.514,1.514,0,0,0,.808.656v.1a.5.5,0,0,0,1.009,0V33.5a1.511,1.511,0,0,0-.506-2.936Zm11.609-2.524A1.514,1.514,0,0,0,27.7,26.524a.5.5,0,1,1,.438-.757.5.5,0,0,0,.874-.5,1.511,1.511,0,0,0-.807-.656v-.1a.5.5,0,1,0-1.009,0V24.6a1.511,1.511,0,0,0,.5,2.936.5.5,0,1,1-.438.757.5.5,0,0,0-.874.5,1.51,1.51,0,0,0,.808.656v.1a.5.5,0,0,0,1.009,0v-.093A1.514,1.514,0,0,0,29.219,28.038ZM7.515,34.6a.5.5,0,1,1,.438-.757.5.5,0,1,0,.874-.5,1.514,1.514,0,0,0-.807-.656v-.1a.5.5,0,1,0-1.009,0v.093a1.511,1.511,0,0,0,.5,2.936.5.5,0,1,1-.438.757.5.5,0,1,0-.874.5,1.514,1.514,0,0,0,.808.656v.1a.5.5,0,0,0,1.009,0v-.093A1.511,1.511,0,0,0,7.515,34.6Z" transform="translate(-6.001 -24)" fill="#b19046" fill-rule="evenodd"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

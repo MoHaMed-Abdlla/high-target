@@ -1,0 +1,294 @@
+@import 'bootstrap.rtl.min.css';
+@import 'lightbox.min.css';
+@import 'aos.css';
+body, html{
+    overflow-x: hidden;
+}
+*{
+    transition: all .3s ease-out;
+}
+.btn-primary{
+    background-color: #361a83 !important;
+}
+#navbar-example2.scrollUp {
+    transform: translateY(-50px);
+}
+.text-primary{
+    color: #361a83 !important;
+}
+#whyus .card{
+    color: #361a83;
+}
+hr{
+    width: 80%;
+    margin: 5px auto;
+}
+.navbar-brand img{
+    height: 60px;
+}
+.nav-link{
+    position: relative;
+    overflow: hidden;
+}
+.nav-link::before{
+    margin: auto;
+    content: '';
+    position: absolute;
+    width: 90%;
+    height: 3px;
+    bottom: -10px;
+    background-color: #361a83;
+    opacity: 0;
+    transition: all .3s ease-out;
+}
+.nav-link.active::before, .nav-link:hover:before{
+    bottom: 0;
+    opacity: 1;
+}
+.nav-link.active{
+    font-weight: 500;
+}
+header{
+    padding-top: 100px;
+    background: linear-gradient(blueviolet,#361a83);
+    height: 600px;
+    margin-bottom: 150px;
+}
+section:hover{
+    background-color: rgb(248, 248, 248);
+}
+section div .col-10:hover{
+    background-color: rgb(241, 241, 241);
+}
+section div .col-10 h4{
+    border-bottom: solid 3px #361a83;
+    width: fit-content;
+}
+.down_border h2{
+    border-bottom: solid 3px blueviolet;
+    width: fit-content;
+}
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1
+}
+
+.circles{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: 1;
+}
+.mvideo, .faqs .row{
+    z-index: 200;
+    position: relative;
+}
+.circles li{
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    animation: animate 25s linear infinite;
+    bottom: -150px;
+    z-index: 1;
+}
+.faqs .circles li{
+    background-color: transparent;
+    font-weight: 700;
+    font-size: 50px;
+}
+.circles li:nth-child(1){
+    left: 25%;
+    width: 80px;
+    height: 80px;
+    font-size: 90px;
+    animation-delay: 0s;
+}
+
+.circles li:nth-child(2){
+    left: 10%;
+    width: 20px;
+    height: 20px;
+    font-size: 30px;
+    animation-delay: 2s;
+    animation-duration: 12s;
+}
+
+.circles li:nth-child(3){
+    left: 70%;
+    width: 20px;
+    height: 20px;
+    font-size: 40px;
+    animation-delay: 4s;
+}
+
+.circles li:nth-child(4){
+    left: 40%;
+    width: 60px;
+    height: 60px;
+    animation-delay: 0s;
+    animation-duration: 18s;
+}
+
+.circles li:nth-child(5){
+    left: 65%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 0s;
+}
+
+.circles li:nth-child(6){
+    left: 75%;
+    width: 110px;
+    height: 110px;
+    font-size: 120px;
+    animation-delay: 3s;
+}
+
+.circles li:nth-child(7){
+    left: 35%;
+    width: 150px;
+    height: 150px;
+    font-size: 150px;
+    animation-delay: 7s;
+}
+
+.circles li:nth-child(8){
+    left: 50%;
+    width: 25px;
+    height: 25px;
+    font-size: 60px;
+    animation-delay: 15s;
+    animation-duration: 45s;
+}
+
+.circles li:nth-child(9){
+    left: 20%;
+    width: 15px;
+    height: 15px;
+    font-size: 30px;
+    animation-delay: 2s;
+    animation-duration: 35s;
+}
+
+.circles li:nth-child(10){
+    left: 85%;
+    width: 150px;
+    height: 150px;
+    font-size: 150px;
+    animation-delay: 0s;
+    animation-duration: 11s;
+}
+
+.circles li:hover{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(153, 125, 180);
+}
+.faqs .circles li:hover{
+    font-size: 170px;
+    background: transparent;
+}
+
+@keyframes animate {
+
+    0%{
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+        border-radius: 0;
+    }
+
+    100%{
+        transform: translateY(-1000px) rotate(720deg);
+        opacity: 0;
+        border-radius: 50%;
+    }
+
+}
+
+.proves img:hover{
+    transform: scale(1.05);
+}
+#whyus{
+    background-color: #361a83;
+}
+.card:hover{
+    background-color: blueviolet !important;
+    color: white !important;
+    transform: scale(1.05);
+    transform: translateY(-10px);
+}
+.steps .step{
+    width: 60px; /* Adjust the circle size */
+    height: 60px; /* Adjust the circle size */
+    background-color: #361a83;
+    color: white;
+    padding: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px; 
+    font-weight: bold;
+    margin: -25px auto 0; /* Center the circle within the card */
+    z-index: 1; 
+}
+.steps .card:hover .step{
+    background-color: white;
+    color: #361a83;
+}
+.card{
+    border: 3px solid #361a83;
+}
+.faqs, .faqs:hover{
+    background: linear-gradient(blueviolet,#361a83);
+}
+.steps{
+    background-image: url('../images/funal-white.png');
+    background-position: center;
+}
+.accordion-item{
+    background-color: blueviolet;
+    color: white;
+}
+.accordion-button, .accordion-button.collapsed, footer{
+    background-color: #361a83;
+    color: white;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 399px) {
+    header {
+        height: 500px; 
+        padding-top: 180px;
+    }
+    .mvideo{
+        padding-top: 100px;
+    }
+    iframe{
+        width: 364px;
+        height: 205px
+    }
+}
+@media screen and (min-width: 400px) and (max-width: 699px) {
+    /* Adjust the width of the element(s) */
+    header {
+        height: 500px; 
+        padding-top: 180px;
+    }
+    .mvideo{
+        padding-top: 100px;
+    }
+    iframe{
+        width: 403px;
+        height: 225px
+    }
+}
