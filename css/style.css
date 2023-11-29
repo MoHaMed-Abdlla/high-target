@@ -1,14 +1,17 @@
 @import 'bootstrap.rtl.min.css';
 @import 'lightbox.min.css';
 @import 'aos.css';
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500&display=swap');
 body, html{
     overflow-x: hidden;
+    font-family: 'Cairo','Tahoma', sans-serif;
 }
 *{
     transition: all .3s ease-out;
 }
 .btn-primary{
     background-color: #361a83 !important;
+    animation: beat 2s linear infinite;
 }
 #navbar-example2.scrollUp {
     transform: translateY(-50px);
@@ -29,6 +32,8 @@ hr{
 .nav-link{
     position: relative;
     overflow: hidden;
+    width: fit-content;
+    margin: auto;
 }
 .nav-link::before{
     margin: auto;
@@ -50,7 +55,7 @@ hr{
 }
 header{
     padding-top: 100px;
-    background: linear-gradient(blueviolet,#361a83);
+    background: linear-gradient(#704ece,#361a83);
     height: 600px;
     margin-bottom: 150px;
 }
@@ -60,9 +65,8 @@ section:hover{
 section div .col-10:hover{
     background-color: rgb(241, 241, 241);
 }
-section div .col-10 h4{
-    border-bottom: solid 3px #361a83;
-    width: fit-content;
+section div .col-10 strong{
+    color: #361a83;
 }
 .down_border h2{
     border-bottom: solid 3px blueviolet;
@@ -214,6 +218,42 @@ section div .col-10 h4{
 
 }
 
+@keyframes beat {
+
+    0%{
+        transform: scale(1);
+    }
+    10%{
+        transform: scale(1.03);
+    }
+    20%{
+        transform: scale(1);
+    }
+    60%{
+        transform: scale(1);
+    }
+    90%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.05);
+    }
+}
+.flowing{
+    animation: flow 1.3s linear infinite;
+}
+@keyframes flow {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(15px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
 .proves img:hover{
     transform: scale(1.05);
 }
@@ -260,8 +300,8 @@ section div .col-10 h4{
     color: white;
 }
 .accordion-button, .accordion-button.collapsed, footer{
-    background-color: #361a83;
-    color: white;
+    background-color: #361a83 !important;
+    color: white !important;
     font-weight: bold;
 }
 
@@ -270,13 +310,17 @@ section div .col-10 h4{
         height: 500px; 
         padding-top: 180px;
     }
+    header .htar img{
+        width: 300px;
+    }
     .mvideo{
         padding-top: 100px;
     }
-    iframe{
+    .mvideo iframe{
         width: 364px;
         height: 205px
     }
+    
 }
 @media screen and (min-width: 400px) and (max-width: 699px) {
     /* Adjust the width of the element(s) */
@@ -284,11 +328,21 @@ section div .col-10 h4{
         height: 500px; 
         padding-top: 180px;
     }
+    header .htar img{
+        width: 350px;
+    }
     .mvideo{
         padding-top: 100px;
     }
-    iframe{
+    .mvideo iframe{
         width: 403px;
         height: 225px
     }
+}
+@media screen and (min-width: 769px) and (max-width: 925px) {
+    .shorts iframe{
+        height: 400px;
+        width: 250px;
+    }
+
 }

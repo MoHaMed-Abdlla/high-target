@@ -36,7 +36,7 @@ $(document).ready(function() {
 
 AOS.init({
     duration: 600, // Animation duration in milliseconds
-    offset: 200, // Offset (in pixels) from the original trigger point
+    offset: 130, // Offset (in pixels) from the original trigger point
     easing: 'ease-in-out', // Easing function for the animation
     delay: 100, // Delay (in milliseconds) before the animation starts
     // More settings...
