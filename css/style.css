@@ -197,6 +197,34 @@ section div .col-10 strong{
     height: 150px;
     background-color: rgb(153, 125, 180);
 }
+.zoom-link{
+    border-radius: 15px;
+    position: absolute;
+    display: flex;
+    width: 95%;
+    height: 70%;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    z-index: -5;
+    opacity: 0;
+    -webkit-transition: 0.4s ease-in-out;
+    transition: 0.4s ease-in-out;
+    background-color: #361a834a;
+    user-select: none;
+}
+
+.proves a:hover .zoom-link{
+    z-index: 50;
+    opacity: 1
+}
+.lb-caption{
+    text-align: right;
+    margin-right: 0;
+    font-size: 30px !important;
+    background-color: rgba(40, 40, 41, 0.74);
+}
 .faqs .circles li:hover{
     font-size: 170px;
     background: transparent;
@@ -254,8 +282,8 @@ section div .col-10 strong{
     }
 }
 
-.proves img:hover{
-    transform: scale(1.05);
+.proves a:hover img{
+    transform: scale(1.06);
 }
 #whyus{
     background-color: #361a83;
