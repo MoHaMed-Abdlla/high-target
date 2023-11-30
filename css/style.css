@@ -1,6 +1,6 @@
 @import 'bootstrap.rtl.min.css';
-@import 'lightbox.min.css';
 @import 'aos.css';
+@import 'simple-lightbox.css';
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500&display=swap');
 body, html{
     overflow-x: hidden;
@@ -54,10 +54,14 @@ hr{
     font-weight: 500;
 }
 header{
-    padding-top: 100px;
+    padding-top: 200px;
     background: linear-gradient(#704ece,#361a83);
     height: 600px;
     margin-bottom: 150px;
+}
+header .htar img{
+    width: 200px;
+    padding-bottom: 8px;
 }
 section:hover{
     background-color: rgb(248, 248, 248);
@@ -190,7 +194,6 @@ section div .col-10 strong{
     animation-delay: 0s;
     animation-duration: 11s;
 }
-
 .circles li:hover{
     border-radius: 50%;
     width: 150px;
@@ -198,11 +201,10 @@ section div .col-10 strong{
     background-color: rgb(153, 125, 180);
 }
 .zoom-link{
-    border-radius: 15px;
     position: absolute;
     display: flex;
-    width: 95%;
-    height: 70%;
+    width: 100%;
+    height: 100%;
     -ms-flex-pack: center;
     justify-content: center;
     -ms-flex-align: center;
@@ -214,16 +216,9 @@ section div .col-10 strong{
     background-color: #361a834a;
     user-select: none;
 }
-
 .proves a:hover .zoom-link{
     z-index: 50;
     opacity: 1
-}
-.lb-caption{
-    text-align: right;
-    margin-right: 0;
-    font-size: 30px !important;
-    background-color: rgba(40, 40, 41, 0.74);
 }
 .faqs .circles li:hover{
     font-size: 170px;
@@ -282,7 +277,7 @@ section div .col-10 strong{
     }
 }
 
-.proves a:hover img{
+.proves a:hover .position-relative{
     transform: scale(1.06);
 }
 #whyus{
@@ -338,9 +333,7 @@ section div .col-10 strong{
         height: 500px; 
         padding-top: 180px;
     }
-    header .htar img{
-        width: 300px;
-    }
+    
     .mvideo{
         padding-top: 100px;
     }
@@ -355,9 +348,6 @@ section div .col-10 strong{
     header {
         height: 500px; 
         padding-top: 180px;
-    }
-    header .htar img{
-        width: 350px;
     }
     .mvideo{
         padding-top: 100px;

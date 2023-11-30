@@ -1,4 +1,6 @@
 
+
+
 $(document).ready(function() {
     function handleScroll() {
         var currentScroll = $(this).scrollTop();
@@ -26,7 +28,7 @@ $(document).ready(function() {
     $(window).on('resize', function() {
         handleScroll();
     });
-
+    $('.proves a').simpleLightbox();
     // Attach scroll event listener only for medium screens or larger
     var screenWidth = window.innerWidth;
     if (screenWidth >= 768) {
@@ -42,9 +44,3 @@ AOS.init({
     // More settings...
   });
 
-lightbox.option({
-    'resizeDuration': 200,
-    'wrapAround': true,
-    'alwaysShowNavOnTouchDevices': true,
-    'disableScrolling': true
-  })
