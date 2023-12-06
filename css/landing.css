@@ -1,11 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500&display=swap');
+
 body, html{
     overflow-x: hidden;
-    font-family: 'Cairo','Tahoma', sans-serif;
 }
 header{
-    background-image: url('../images/backheader.png'), linear-gradient(45deg,#704ecebb,blueviolet); 
-    color: white;
+    background-image: url('../images/backheader.png'); 
     padding-bottom: 100px;
 }
 hr{
@@ -55,36 +53,10 @@ strong{
         transform: scale(1.05);
     }
 }
-.back{
-    background: linear-gradient(45deg,rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.3));
-    backdrop-filter: blure(20px);
-    box-shadow: 0px 0px 10px 10px rgba(255, 255, 255, 0.356);
-    transition: all .3s ease-in-out;
-}
+
 .back:hover{
     background-color: rgba(255, 255, 255, 0.514);
     transform: scale(1.05);
-}
-
-.custom-shape-divider-bottom-1701888136 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
-}
-
-.custom-shape-divider-bottom-1701888136 svg {
-    position: relative;
-    display: block;
-    width: calc(159% + 1.3px);
-    height: 87px;
-}
-
-.custom-shape-divider-bottom-1701888136 .shape-fill {
-    fill: #FFFFFF;
 }
 
 .services{
