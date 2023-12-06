@@ -1,6 +1,8 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500&display=swap');
 body, html{
     overflow-x: hidden;
+    font-family: 'Cairo','Tahoma', sans-serif;
 }
 header{
     background-image: url('../images/backheader.png'); 
