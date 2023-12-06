@@ -6,7 +6,7 @@ body, html{
 }
 header{
     background-image: url('../images/backheader.png'); 
-    padding-bottom: 100px;
+    padding-bottom: 80px;
 }
 hr{
     border: 1px solid black;
